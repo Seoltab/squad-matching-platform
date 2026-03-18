@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-seoltab-gray: #f9f9f9;
+    --color-seoltab-dark: #200062;
+    --color-seoltab-blue: #5d3dc8;
+    --color-seoltab-purple: #9863ff;
+    --color-seoltab-light: #b7a1ff;
+    --color-seoltab-sub: #d8d0ff;
+  }
+
+  body {
+    @apply text-seoltab-dark bg-seoltab-gray;
+  }
+}
